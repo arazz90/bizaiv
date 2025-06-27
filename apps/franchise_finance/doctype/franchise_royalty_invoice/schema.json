@@ -1,0 +1,9 @@
+{
+  "doctype": "Franchise Royalty Invoice",
+  "fields": [
+    {"fieldname": "franchise", "fieldtype": "Link", "options": "Company", "label": "Franchise Company"},
+    {"fieldname": "period", "fieldtype": "Data", "label": "Billing Period"},
+    {"fieldname": "total_sales", "fieldtype": "Currency", "label": "Total Sales"},
+    {"fieldname": "royalty_amount", "fieldtype": "Currency", "label": "Royalty Amount"}
+  ]
+}
